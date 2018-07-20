@@ -21,7 +21,7 @@
 <meta name="twitter:data1" content="But this will be ready soon">
 <meta name="twitter:label1" content="This is the Beta">
 <meta name="twitter:data2" content="Justin Grierson">
-<meta name="twitter:label2" content="Deom Developed by">
+<meta name="twitter:label2" content="Demo Developed by">
 
 <!-- Open Graph data -->
 <meta property="og:title" content="QuicQR" />
