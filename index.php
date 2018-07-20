@@ -15,8 +15,8 @@
 <meta name="twitter:card" content="product">
 <meta name="twitter:site" content="@publisher_handle">
 <meta name="twitter:title" content="Page Title">
-<meta name="twitter:description" content="Page description less than 200 characters">
-<meta name="twitter:creator" content="@author_handle">
+<meta name="twitter:description" content="QuicQR the quick way to pay for your coffee">
+<meta name="twitter:creator" content="@ju3ting">
 <meta name="twitter:image" content="http://www.example.com/image.jpg">
 <meta name="twitter:data1" content="$3">
 <meta name="twitter:label1" content="Price">
