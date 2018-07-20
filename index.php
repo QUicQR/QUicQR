@@ -176,8 +176,28 @@
 
 
 <li data-filtertext="blocks content formatting sections heading"><a href="demos/body-bar-classes/" data-ajax="false">Grouping and dividing content</a></li>
-
-
+<li data-role="collapsible" data-enhanced="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed">
+	<h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+		<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d">
+			Icons<span class="ui-collapsible-heading-status"> click to expand contents</span>
+		</a>
+	</h3>
+	<div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+		<ul>
+			<li data-filtertext="button icons svg disc alt custom icon position"><a href="demos/icons/" data-ajax="false">Icons</a></li>
+			<li data-filtertext=""><a href="demos/icons-grunticon/" data-ajax="false">Grunticon loader</a></li>
+		</ul>
+	</div>
+</li>
+<li data-role="collapsible" data-enhanced="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed">
+	<h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+		<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d">
+			Listview widget<span class="ui-collapsible-heading-status"> click to expand contents</span>
+		</a>
+	</h3>
+	<div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+		<ul>
+			<li data-filtertext="listview widget thumbnails icons nested split button collapsible ul ol"><a href="demos/listview/" data-ajax="false">Listview</a></li>
 			<li data-filtertext="autocomplete filterable reveal listview filtertextbeforefilter placeholder"><a href="demos/listview-autocomplete/" data-ajax="false">Listview autocomplete</a></li>
 			<li data-filtertext="autocomplete filterable reveal listview remote data filtertextbeforefilter placeholder"><a href="demos/listview-autocomplete-remote/" data-ajax="false">Listview autocomplete remote data</a></li>
 			<li data-filtertext="autodividers anchor jump scroll linkbars listview lists ul ol"><a href="demos/listview-autodividers-linkbar/" data-ajax="false">Listview autodividers linkbar</a></li>
