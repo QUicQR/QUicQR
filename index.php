@@ -26,11 +26,11 @@
 
 		<h1>Demos</h1>
 
-		<p><strong>jQuery Mobile is a touch-optimized HTML5 UI framework designed to make responsive web sites and apps that are accessible on all smartphone, tablet and desktop devices.</strong></p>
+		<p><strong>So this is a demo for the QR payments using Allied Wallet as a Payment Gateway.</strong></p>
 
 		<img src="demos/_assets/img/devices.png">
 
-		<p>New to jQuery Mobile? Get started by reading this <a href="intro/" data-ajax="false">introduction</a>. For technical info, visit the <a href="http://api.jquerymobile.com" title="jQuery Mobile API documentation" target="_blank">API documentation</a>. Downloads and info about the project can be found on <a href="http://jquerymobile.com" title="jQuery Mobile web site" target="_blank">jquerymobile.com</a>.</p>
+		<p>In this introduction I will be able to show you how QuicQR will be able to sell coffee from diffeant restrents and put money on the accounts for users.</p>
 
         <div class="ui-grid-a ui-responsive">
         	<div class="ui-block-a">
