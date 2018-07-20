@@ -67,8 +67,8 @@
         		<div class="jqm-block-content">
         			<h3>User Login</h3>
 
-        			<p><a href="pages/" data-ajax="false">Pages</a></p>
-        			<p><a href="navigation/" data-ajax="false">Navigation</a></p>
+        			<p><a href="pages/" data-ajax="false">Login Page</a></p>
+        			<p><a href="navigation/" data-ajax="false">User Profile</a></p>
         			<p><a href="loader/" data-ajax="false">Loader</a></p>
         			<p><a href="transitions/" data-ajax="false">Transitions</a></p>
         		</div>
