@@ -173,36 +173,8 @@
 </li>
 <li data-filtertext="filterable filter elements sorting searching listview table"><a href="demos/filterable/" data-ajax="false">Filterable widget</a></li>
 <li data-filtertext="form flipswitch widget flip toggle switch binary select checkbox input"><a href="demos/flipswitch/" data-ajax="false">Flipswitch widget</a></li>
-<li data-role="collapsible" data-enhanced="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed">
-	<h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
-		<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d">
-			Forms<span class="ui-collapsible-heading-status"> click to expand contents</span>
-		</a>
-	</h3>
-	<div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
-		<ul>
-			<li data-filtertext="forms text checkbox radio range button submit reset inputs selects textarea slider flipswitch label form elements"><a href="demos/forms/" data-ajax="false">Forms</a></li>
-			<li data-filtertext="form hide labels hidden accessible ui-hidden-accessible forms"><a href="demos/forms-label-hidden-accessible/" data-ajax="false">Hide labels</a></li>
-			<li data-filtertext="form field containers fieldcontain ui-field-contain forms"><a href="demos/forms-field-contain/" data-ajax="false">Field containers</a></li>
-			<li data-filtertext="forms disabled form elements"><a href="demos/forms-disabled/" data-ajax="false">Forms disabled</a></li>
-			<li data-filtertext="forms gallery examples overview forms text checkbox radio range button submit reset inputs selects textarea slider flipswitch label form elements"><a href="demos/forms-gallery/" data-ajax="false">Forms gallery</a></li>
-		</ul>
-	</div>
-</li>
-<li data-role="collapsible" data-enhanced="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed">
-	<h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
-		<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d">
-			Grids<span class="ui-collapsible-heading-status"> click to expand contents</span>
-		</a>
-	</h3>
-	<div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
-		<ul>
-			<li data-filtertext="grids columns blocks content formatting rwd responsive css framework"><a href="demos/grids/" data-ajax="false">Grids</a></li>
-			<li data-filtertext="buttons in grids css framework"><a href="demos/grids-buttons/" data-ajax="false">Buttons in grids</a></li>
-			<li data-filtertext="custom responsive grids rwd css framework"><a href="demos/grids-custom-responsive/" data-ajax="false">Custom responsive grids</a></li>
-		</ul>
-	</div>
-</li>
+
+
 <li data-filtertext="blocks content formatting sections heading"><a href="demos/body-bar-classes/" data-ajax="false">Grouping and dividing content</a></li>
 <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed">
 	<h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
