@@ -35,7 +35,7 @@
         <div class="ui-grid-a ui-responsive">
         	<div class="ui-block-a">
         		<div class="jqm-block-content">
-        			<h3>Pages &amp; Navigation</h3>
+        			<h3>User Login</h3>
 
         			<p><a href="pages/" data-ajax="false">Pages</a></p>
         			<p><a href="navigation/" data-ajax="false">Navigation</a></p>
@@ -45,7 +45,7 @@
         	</div>
         	<div class="ui-block-b">
         		<div class="jqm-block-content">
-        			<h3>CSS Framework</h3>
+        			<h3>Coffee Shops</h3>
 
         			<p><a href="theme-default/" data-ajax="false">Theming</a></p>
         			<p><a href="button-markup/" data-ajax="false">Buttons</a></p>
@@ -56,7 +56,7 @@
         	</div>        	
         	<div class="ui-block-a">
         		<div class="jqm-block-content">
-        			<h3>Widgets</h3>
+        			<h3>What is Next</h3>
 
         			<p><a href="toolbar/" data-ajax="false">Toolbar</a>, <a href="navbar/" data-ajax="false">Navbar</a></p>
         			<p><a href="tabs/" data-ajax="false">Tabs</a>, <a href="panel/" data-ajax="false">Panel</a>, <a href="popup/" data-ajax="false">Popup</a></p>
@@ -68,7 +68,7 @@
         	</div>
         	<div class="ui-block-b">
         		<div class="jqm-block-content">
-        			<h3>Form widgets</h3>
+        			<h3>Technology Used For Demo</h3>
 
         			<p><a href="checkboxradio-checkbox/" data-ajax="false">Checkboxes</a>, <a href="checkboxradio-radio/" data-ajax="false">Radio buttons</a></p>
         			<p><a href="selectmenu/" data-ajax="false">Selectmenu</a>, <a href="selectmenu-custom/" data-ajax="false">Custom menu</a></p>
