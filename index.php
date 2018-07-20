@@ -18,10 +18,10 @@
 <meta name="twitter:description" content="QuicQR the quick way to pay for your coffee">
 <meta name="twitter:creator" content="@ju3ting">
 <meta name="twitter:image" content="https://quicqr.herokuapp.com/demos/_assets/img/jquery-logo.png">
-<meta name="twitter:data1" content="$3">
-<meta name="twitter:label1" content="Price">
-<meta name="twitter:data2" content="Black">
-<meta name="twitter:label2" content="Color">
+<meta name="twitter:data1" content="But this will be ready soon">
+<meta name="twitter:label1" content="This is the Beta">
+<meta name="twitter:data2" content="Justin Grierson">
+<meta name="twitter:label2" content="Deom Developed by">
 
 <!-- Open Graph data -->
 <meta property="og:title" content="QuicQR" />
