@@ -3,6 +3,36 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="QuicQR the quick way to pay for your coffee" />
+
+<!-- Schema.org markup for Google+ -->
+<meta itemprop="name" content="QuicQR">
+<meta itemprop="description" content="QuicQR the quick way to pay for your coffee">
+<meta itemprop="image" content="https://quicqr.herokuapp.com/demos/_assets/img/jquery-logo.png">
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="product">
+<meta name="twitter:site" content="@publisher_handle">
+<meta name="twitter:title" content="Page Title">
+<meta name="twitter:description" content="Page description less than 200 characters">
+<meta name="twitter:creator" content="@author_handle">
+<meta name="twitter:image" content="http://www.example.com/image.jpg">
+<meta name="twitter:data1" content="$3">
+<meta name="twitter:label1" content="Price">
+<meta name="twitter:data2" content="Black">
+<meta name="twitter:label2" content="Color">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="QuicQR" />
+<meta property="og:type" content="Website" />
+<meta property="og:url" content="https://quicqr.herokuapp.com/" />
+<meta property="og:image" content="https://quicqr.herokuapp.com/demos/_assets/img/jquery-logo.png" />
+<meta property="og:description" content="QuicQR the quick way to pay for your coffee" />
+<meta property="og:site_name" content="QuicQR" />
+<meta property="og:price:amount" content="15.00" />
+<meta property="og:price:currency" content="GBP" />
+    
 	<title>jQuery Mobile Demos</title>
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" href="demos/css/themes/default/jquery.mobile-1.4.5.min.css">
