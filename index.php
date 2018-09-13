@@ -116,7 +116,7 @@
 <li data-filtertext="demos homepage" data-icon="home"><a href="index.php">Home</a></li>
 <li data-filtertext="introduction overview getting started"><a href="/sign-up.html" data-ajax="false">Login</a></li>
 <li data-filtertext="buttons button markup buttonmarkup method anchor link button element"><a href="demos/button-markup/" data-ajax="false">Buttons</a></li>
-<li data-filtertext="form button widget input button submit reset"><a href="demos/button/" data-ajax="false">Button widget</a></li>
+<li data-filtertext="form button widget input button submit reset"><a href="/barcodereader/index.html" data-ajax="false">Barcode Reader</a></li>
 <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed">
 	<h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
 		<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d">
