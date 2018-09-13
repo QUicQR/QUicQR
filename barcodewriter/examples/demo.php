@@ -16,7 +16,7 @@
 <script type="text/javascript" src="../jquery.qrcode.min.js"></script>
 <script>
 jQuery(function(){
-	jQuery('#output').qrcode("http://quicqr.herokuapp.com/user.php?account=<?php $_GET['title'] ?>");
+	jQuery('#output').qrcode("http://quicqr.herokuapp.com/user.php?account=<?php echo $_GET['title'] ?>");
 })
 </script>
 
