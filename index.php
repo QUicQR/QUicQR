@@ -114,7 +114,7 @@
 	    <div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
 	    	<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
 <li data-filtertext="demos homepage" data-icon="home"><a href="index.php">Home</a></li>
-<li data-filtertext="introduction overview getting started"><a href="demos/intro/" data-ajax="false">Login</a></li>
+<li data-filtertext="introduction overview getting started"><a href="/sign-up.html" data-ajax="false">Login</a></li>
 <li data-filtertext="buttons button markup buttonmarkup method anchor link button element"><a href="demos/button-markup/" data-ajax="false">Buttons</a></li>
 <li data-filtertext="form button widget input button submit reset"><a href="demos/button/" data-ajax="false">Button widget</a></li>
 <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed">
