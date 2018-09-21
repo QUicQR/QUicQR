@@ -134,14 +134,14 @@ $conn->close();
     <link href="form-validation.css" rel="stylesheet">
 
 </head>
-<body>
+<body style="">
  
 <form method = "POST" action = "" >
-<input  name="username"  type="text"> 
-  <input  name="firstName"  type="text"> 
-  <input  name="lastName"  type="text">
-  <input  name="email"  type="text"> 
-  <input  name="password"  type="text">
+<input  name="username"  type="text"><br/> 
+  <input  name="firstName"  type="text"> <br/> 
+  <input  name="lastName"  type="text"><br/> 
+  <input  name="email"  type="text"> <br/> 
+  <input  name="password"  type="text"><br/> 
   <input  type="submit"  name="submit"  value="submit" >
 </form>
 
