@@ -105,6 +105,9 @@ $sql = "INSERT INTO `heroku_cae582ac646e5b6`.`customers` (Firstname, Lastname, u
 VALUES ('$b', '$c', '$f', '$g', '$a', '$e', '$d')";
 
 if ($conn->query($sql) === TRUE) {
+	
+	
+	
    // echo "New record created successfully";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
@@ -123,7 +126,15 @@ $conn->close();
 ?>
 
 <html>
-<head></head>
+<head>
+    <title>Conference Room Booking App - Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/themes/1/conf-room1.min.css" rel="stylesheet" />
+    <link href="css/themes/1/jquery.mobile.icons.min.css" rel="stylesheet" />
+    <link href="lib/jqm/1.4.4/jquery.mobile.structure-1.4.4.min.css" rel="stylesheet" />
+    <link href="../css/app.css" rel="stylesheet" />
+    <script src="lib/jquery/2.1.1/jquery-2.1.1.min.js"></script>
+    <script src="../../../lib/jqm/1.4.4/jquery.mobile-1.4.4.min.js"></script></head>
 <body>
  
 <form method = "POST" action = "" >
