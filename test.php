@@ -135,7 +135,7 @@ $conn->close();
 
 </head>
 <body style="">
- 
+ <div style="width:800px; margin:0 auto;">
 <form method = "POST" action = "" >
 <input  name="username"  type="text"><br/> 
   <input  name="firstName"  type="text"> <br/> 
@@ -144,7 +144,7 @@ $conn->close();
   <input  name="password"  type="text"><br/> 
   <input  type="submit"  name="submit"  value="submit" >
 </form>
-
+</div>
 
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="jquery-slim.min.js"><\/script>')</script>
