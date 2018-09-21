@@ -137,11 +137,11 @@ $conn->close();
 <body style="">
  <div style="width:800px; margin:0 auto;">
 <form method = "POST" action = "" >
-<input  name="username"  type="text"><br/> 
-  <input  name="firstName"  type="text"> <br/> 
-  <input  name="lastName"  type="text"><br/> 
-  <input  name="email"  type="text"> <br/> 
-  <input  name="password"  type="text"><br/> 
+<input  name="username"  type="text"><br/> Username <br/>
+  <input  name="firstName"  type="text"> <br/> First Name <br/>
+  <input  name="lastName"  type="text"><br/> Last Name <br/>
+  <input  name="email"  type="text"> <br/> Email Address <br/>
+  <input  name="password"  type="text"><br/> Password<br/>
   <input  type="submit"  name="submit"  value="submit" >
 </form>
 </div>
