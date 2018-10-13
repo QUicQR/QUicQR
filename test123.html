@@ -1,0 +1,46 @@
+<html>
+<head></head>
+
+
+<body>
+
+<h3>LOAD Card service </h3>
+
+clientID <input type="text" id="clientID" value="8267100652" class="form-control" />
+amount <input type="text" id="amount" value="44.54" class="form-control" />
+transactionID <input type="text" id="transactionID" value="" class="form-control" />
+<br /><br /><input type="button" value="Submit" onclick="testLoadCard();" />
+<br />result:<label id="resultLoadCard"></label>
+<script type="text/javascript">
+
+    function testLoadCard() {
+        $("#resultLoadCard").html("Loading...");
+        var postdata = {
+            clientID: $("#clientID").val(),
+            amount: $("#amount").val(),
+            transactionID: $("#transactionID").val()
+        };
+        $.ajax({
+            url: '@Url.Action("LoadCard", "http://ec2-18-221-164-34.us-east-2.compute.amazonaws.com/API/Operation/LoadCard")',
+            type: 'POST',
+            datatype: "json",
+            contentType: 'application/json',
+            traditional: true,
+            beforeSend: function (xhr, settings) { xhr.setRequestHeader('Authorization', 'Bearer ITr9mkJhRiuduj2EUuC6VhvzCwfZdNpakhNOrtjMZ6-noDucHWydyZBi6bKzK0AtHiiPw1v36x7wDLYiYxFxqG046LpuxQRFbRQJWYo71SMLj7V8nSE9K-7qIFiyKOMbq7K51A_5zrcmbmB70jWNY-lktV7O38TpqrhY3AAYf6Ug5oRN1LD28Lk1qXr8WDkvgv60I2hi7KE5sLTqkqWdIa2Ze4gHo5Nv8lqZNMlR6Tyqwsrd2gWmJ9wGoYRw7tzkY7SkE4zP4m5AYEI-WVCK2uqPZIoeCiHas4LkBjlYilpV33ncLLuk6Vigwi3dO0uq2CVJG5RETjRaVFJl2D_MLQE_jHeZbpqHpPBbPniwDo_31LggYm_4xHMruvUii1n_QujAr3p835_V-M56PhPqINRaseEEBA81lX-ptUS0NAOBm-BXbUWq8ObHR0O8y5frfuJ1vupMI4x0rCAE04ZaBT_qoM0qh3MenvNAt7SyvTGjO17zI1FjvNM1TT_KqpFD7X_a7tP1JEuSxn1YfB8KFA'); },
+            data: JSON.stringify(postdata),
+            success: function (data) {
+                $("#resultLoadCard").html(JSON.stringify(data));
+            },
+            done: function () { },
+            error: function (event, request, settings) {
+                $("#resultLoadCard").html(JSON.stringify(event));
+            },
+            timeout: 90000
+        });
+    }
+</script> 
+
+
+
+</body>
+</html>
